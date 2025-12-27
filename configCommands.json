@@ -1,0 +1,27 @@
+
+{
+  "defaultCooldown": 3,
+  "disable": {
+    "global": [],
+    "perThread": {}
+  },
+  "roles": {
+    "0": "user",
+    "1": "admin",
+    "2": "botAdmin",
+    "3": "owner"
+  },
+  "overrides": {
+    "roleOverrides": {},
+    "cooldownOverrides": {},
+    "aliasOverrides": {}
+  },
+  "categories": {
+    "general": "General Commands",
+    "utility": "Utility Tools",
+    "fun": "Fun & Games",
+    "moderation": "Moderation",
+    "nsfw": "NSFW (if enabled)",
+    "owner": "Owner Only"
+  }
+}
