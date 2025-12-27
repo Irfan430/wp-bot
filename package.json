@@ -27,12 +27,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourusername/goatbot-framework.git"
+    "url": "https://github.com/Irfan430/wp-bot"
   },
   "bugs": {
-    "url": "https://github.com/yourusername/goatbot-framework/issues"
+    "url": "https://github.com/Irfan430/wp-bot"
   },
-  "homepage": "https://github.com/yourusername/goatbot-framework#readme",
+  "homepage": "https://github.com/Irfan430/wp-bot",
   "dependencies": {
     "@whiskeysockets/baileys": "^6.5.0",
     "pino": "^8.15.0",
