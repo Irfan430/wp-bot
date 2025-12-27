@@ -1,0 +1,68 @@
+{
+  "bot": {
+    "name": "GoatBot",
+    "version": "3.0.0",
+    "author": "IRFAN",
+    "github": "",
+    "contact": ""
+  },
+  "prefix": {
+    "global": "!",
+    "allowNoPrefix": false,
+    "mentionAsPrefix": true,
+    "spaceAfterPrefix": false
+  },
+  "owners": {
+    "ownerUID": ["923xxxxxxxxxx@s.whatsapp.net"],
+    "adminUID": ["923xxxxxxxxxx@s.whatsapp.net"],
+    "master": ["923xxxxxxxxxx@s.whatsapp.net"]
+  },
+  "language": {
+    "default": "en",
+    "fallback": "en",
+    "allowPerUser": true,
+    "allowPerThread": true
+  },
+  "features": {
+    "autoRead": true,
+    "autoSeen": false,
+    "allowPM": true,
+    "allowGroup": true,
+    "allowNSFW": false,
+    "antiSpam": {
+      "enabled": true,
+      "maxMessages": 5,
+      "timeframe": 3000,
+      "action": "warn"
+    },
+    "antiFlood": {
+      "enabled": true,
+      "threshold": 10,
+      "cooldown": 5000
+    }
+  },
+  "database": {
+    "type": "json",
+    "path": "./database",
+    "autoSave": true,
+    "saveInterval": 60000
+  },
+  "security": {
+    "selfbotProtection": true,
+    "commandCooldown": 1500,
+    "maxCommandLength": 500,
+    "maxArgs": 20
+  },
+  "logging": {
+    "level": "info",
+    "saveToFile": true,
+    "logCommands": true,
+    "logErrors": true,
+    "logEvents": true
+  },
+  "performance": {
+    "maxCacheSize": 1000,
+    "cleanupInterval": 3600000,
+    "enableCompression": true
+  }
+}
