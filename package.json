@@ -1,0 +1,36 @@
+{
+  "name": "goatbot-framework",
+  "version": "3.0.0",
+  "description": "Advanced WhatsApp Bot Framework by IRFAN",
+  "main": "Goat.js",
+  "scripts": {
+    "start": "node Goat.js",
+    "dev": "nodemon Goat.js",
+    "test": "echo \"No tests specified\"",
+    "backup": "node scripts/backup.js"
+  },
+  "keywords": [
+    "whatsapp",
+    "bot",
+    "framework",
+    "baileys",
+    "goatbot"
+  ],
+  "author": "IRFAN",
+  "license": "MIT",
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.5.0",
+    "pino": "^8.15.0",
+    "chalk": "^4.1.2",
+    "moment": "^2.29.4",
+    "fs-extra": "^11.1.1",
+    "axios": "^1.6.0",
+    "form-data": "^4.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
